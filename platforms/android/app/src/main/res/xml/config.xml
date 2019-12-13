@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.algonquinlive.upad0018.movieapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>UPAD0018</name>
+    <description>
+       Project 2.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <prefernce name="SplashMaintainAspectRatio" value="true" />
+    <prefernce name="SplashShowOnlyFirstTime" value="true" />
+    <prefernce name="splashscreen" value="5000" />
+    <icon density="mdpi" src="res/icons/mdpi.png" />
+    <icon density="hdpi" src="res/icons/hdpi.png" />
+    <icon density="xhdpi" src="res/icons/xhdpi.png" />
+    <icon density="xxhdpi" src="res/icons/xxhdpi.png" />
+    <icon density="xxxhdpi" src="res/icons/xxxhdpi.png" />
+    <splash density="port-mdpi" src="res/splashscreens/mdpi-port.png" />
+    <splash density="port-hdpi" src="res/splashscreens/hdpi-port.png" />
+    <splash density="port-xhdpi" src="res/splashscreens/xhdpi-port.png" />
+    <splash density="port-xxhdpi" src="res/splashscreens/xxhdpi-port.png" />
+    <splash density="port-xxxhdpi" src="res/splashscreens/xxxhdpi-port.png" />
+    <splash density="land-mdpi" src="res/splashscreens/mdpi-land.png" />
+    <splash density="land-hdpi" src="res/splashscreens/hdpi-land.png" />
+    <splash density="land-xhdpi" src="res/splashscreens/xhdpi-land.png" />
+    <splash density="land-xxhdpi" src="res/splashscreens/xxhdpi-land.png" />
+    <splash density="land-xxxhdpi" src="res/splashscreens/xxxhdpi-land.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>

@@ -1,0 +1,123 @@
+html 
+{
+  background-color: whitesmoke;
+}
+
+.currentpage 
+{
+  box-sizing: border-box;
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 1;
+  color: black;
+  background-color: blanchedalmond; 
+}
+  .currentpage.active 
+  {
+    opacity: 1;
+    z-index: 100; 
+  }
+  .currentpage form 
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: lightcoral;
+    background-color: #0B0C10;
+    padding: 10vw;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 18px; 
+  }
+    .currentpage form button 
+    {
+      margin: 20px;
+      font-size: 1.2em;
+      color: khaki;
+      background-color: purple;
+      border-radius: 4px;
+      border: 2px solid transparent; 
+    }
+
+      .page form button:hover 
+      {
+        border: 2px solid #45A29E; 
+      }
+
+  .page input[type=text] 
+  {
+    background-color: #C5C6C7; 
+  }
+
+#back 
+{
+  z-index: 200;
+  width: 70px;
+  height: 70px;
+  font-size: 25px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 #333;
+  position: fixed;
+  top: 85vh;
+  left: 85vw; 
+}
+
+.actor img 
+{
+  width: 250px;
+  height: 350px; 
+}
+
+.movie 
+{
+  margin-top: 15px;
+  padding-bottom: 5;
+  margin-bottom: 5;
+  text-align: center;
+  border:  #FF0000; 
+}
+
+  .movie img 
+  {
+    margin-bottom: 0;
+    position: relative;
+    top: 6px;
+    width: 200;
+    height: 300; 
+  }
+
+#team 
+{
+  text-align: center; 
+
+}
+  #cast img 
+  {
+    border-radius: 50%;
+    width: 250px;
+    height: 200px; 
+  }
+
+#details 
+{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.serial 
+{
+  opacity: 1.0;
+  background-color: #FF0000; 
+}
